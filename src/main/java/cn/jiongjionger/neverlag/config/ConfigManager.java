@@ -79,7 +79,7 @@ public class ConfigManager extends AbstractConfig {
 	public int cleanItemPlayerNearbyDistance = 10;
 	// 清理后是否公告
 	@F("Cleaner.DropItem.Broadcast")
-	public boolean cleanItemBroadcast = true;
+	public boolean cleanItemBroadcast = false;
 	// 清理前是否预告
 	@F("Cleaner.DropItem.Forenotice")
 	public boolean cleanItemForenotice = true;

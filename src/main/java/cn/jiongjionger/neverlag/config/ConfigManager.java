@@ -40,7 +40,7 @@ public class ConfigManager extends AbstractConfig {
 	public int cleanEntityPlayerNearbyDistance = 10;
 	// 清理后是否公告
 	@F("Cleaner.Entity.Broadcast")
-	public boolean cleanEntityBroadcast = true;
+	public boolean cleanEntityBroadcast = false;
 
 	// 清理种类是否包括所有动物
 	@F("Cleaner.Entity.Included.Animals")
